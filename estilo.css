@@ -1,0 +1,42 @@
+        .body-back {
+            /* background-color: rgb(38, 38, 38); */
+            /*   background-color: rgb(53, 49, 134); */
+            color: white;
+        }
+
+        @font-face {
+            font-family: mandarian-bold;
+            src: url('fonts/Madani\ Arabic\ Bold.ttf');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: mandarian-light;
+            src: url('fonts/Madani\ Arabic\ Light.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .mandarian-bold {
+            font-family: mandarian-bold;
+        }
+
+        .mandarian-light {
+            font-size: 9.5;
+            font-family: mandarian-light;
+        }
+
+        .fondo-azul {
+            background-color: rgb(53, 49, 134);
+            color: white;
+        }
+
+        .fondo-blanco {
+            background-color: white;
+            color: rgb(53, 49, 134);
+        }
+
+        .justificar {
+            text-align: justify;
+        }
